@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vivatec Ascensore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Vivatec Ascensore</h1>
+    <p>Ingeniería, mueve tu mundo.</p>
+    <nav>
+      <button onclick="mostrar('quienes')">¿Quiénes somos?</button>
+      <button onclick="mostrar('servicios')">Servicios</button>
+      <button onclick="mostrar('contacto')">Contáctanos</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="quienes" class="contenido">
+      <h2>¿Quiénes somos?</h2>
+      <p>Somos especialistas en transporte vertical. Brindamos soluciones seguras, eficientes y personalizadas en ascensores y escaleras mecánicas.</p>
+    </section>
+
+    <section id="servicios" class="contenido" style="display:none;">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Instalación de ascensores y escaleras mecánicas</li>
+        <li>Mantenimiento preventivo y correctivo</li>
+        <li>Modernización de equipos</li>
+        <li>Asesoría técnica especializada</li>
+      </ul>
+    </section>
+
+    <section id="contacto" class="contenido" style="display:none;">
+      <h2>Contáctanos</h2>
+      <p>Email: contacto@vivatecascensore.com</p>
+      <p>Teléfono: +51 999 999 999</p>
+      <p>Ubicación: Trujillo, Perú</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vivatec Ascensore</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
